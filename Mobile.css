@@ -1,0 +1,37 @@
+/* Mobile Styles */
+body {
+    font-size: 16px;
+}
+
+#navbar ul {
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#navbar ul li {
+    margin: 5px 0;
+}
+
+#lobby h1 {
+    font-size: 36px;
+}
+
+#lobby p {
+    font-size: 18px;
+}
+
+#home-info {
+    flex-direction: column;
+}
+
+#home-info .home-img {
+    height: 200px;
+}
+
+#others {
+    flex-direction: column;
+}
+
+#others .box {
+    margin-bottom: 20px;
+}

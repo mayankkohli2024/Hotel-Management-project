@@ -1,0 +1,183 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #571a9b;
+}
+
+/* Navbar Styles */
+#navbar {
+    background: #041710;
+    color: #c9ddd8;
+    padding: 10px 0;
+}
+
+#navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#navbar .logo a {
+    color: #dae8e2;
+    text-decoration: rgb(201, 182, 214);
+    font-size: 30px;
+}
+
+#navbar ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+#navbar ul li {
+    margin: 0 10px;
+}
+
+#navbar ul li a {
+    color: #7b96de;
+    text-decoration: none;
+    padding: 5px 10px;
+    transition: background 0.3s;
+}
+
+#navbar ul li a:hover,
+#navbar ul li#current a {
+    background: #468696;
+}
+
+/* Lobby Section */
+#lobby {
+    background: url('Hotel1.jpeg') no-repeat center center/cover;
+    color: #4236eb;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+#lobby .container {
+    max-width: 500px;
+    margin: auto;
+}
+
+#lobby h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+#lobby p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+#lobby .btn {
+    background: #0f0203;
+    color: #b1cab0;
+    padding: 10px 20px;
+    text-decoration: none;
+    transition: background 0.3s;
+}
+
+#lobby .btn:hover {
+    background: #448167;
+}
+
+/* Home Info Section */
+#home-info {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+#home-info .home-img {
+    flex: 2;
+    background: url('Lobby\ 1.jpg') no-repeat center center/cover;
+    height: 400px;
+}
+
+#home-info .home-content {
+    flex: 2;
+    padding: 20px;
+}
+
+#home-info h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+#home-info p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+#home-info .btn1 a {
+    background: #0b662d;
+    color: #b6d0c6;
+    padding: 10px 20px;
+    text-decoration: none;
+    transition: background 0.3s;
+}
+
+#home-info .btn1 a:hover {
+    background: #4a9a62;
+}
+
+/* Others Section */
+#others {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+#others .box {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+}
+
+#others .box-1 {
+    color: #0ebe46;
+    margin-bottom: 10px;
+}
+
+#others .box h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#others .box p {
+    font-size: 16px;
+}
+
+/* Footer */
+#footer {
+    background: #07572f;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+#about {
+    padding: 20px;
+    background: #fff;
+    text-align: center;
+}
+
+#about .container {
+    max-width: 800px;
+    margin: auto;
+}
+
+#about h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+#about p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
